@@ -6,6 +6,8 @@ https://github.com/crowelian/server-manager
 ## Notes
 - Java 9 needed: openjdk9-jre
 
+## Todos
+- add env variables for ports
 
 ## Usage
 1. copy the jar packaged file to java folder
@@ -47,7 +49,9 @@ build:
 docker build -t server-monitor-image:v1 .
 ```
 
-## run the docker container, with frontend port 4200,3000 or 4230 and backend 8080
+## run the docker container
+*frontend port 4200,3000 or 4230 and backend 8080*
+
 run:
 ```bash
 # usually angular uses 4200
